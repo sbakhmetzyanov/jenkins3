@@ -13,7 +13,7 @@ def pytest_addoption(parser):
     parser.addoption(
         "--headless", action="store_true"
     )
-    parser.addoption("--url", action="store", default="http://localhost")
+    parser.addoption("--url", action="store", default="http://192.168.1.75:8081")
 
 
 @pytest.fixture()
